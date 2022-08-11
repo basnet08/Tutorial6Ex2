@@ -19,7 +19,7 @@ namespace Tutorial6Ex2.Controllers
         }
         public string contacts()
             {
-            return " test";
+            return " This is just a test";
 }
         public string Details(string SubjectID)
         {
