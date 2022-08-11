@@ -15,8 +15,12 @@ namespace Tutorial6Ex2.Controllers
         }
         public string subjects()
         {
-            return "this page is to show the list of subjects that the student is enrolled in";
+            return " page is to show the list of subjects that the student is enrolled in";
         }
+        public string contacts()
+            {
+            return " test";
+}
         public string Details(string SubjectID)
         {
             return HttpUtility.HtmlEncode("Subject code: " + SubjectID);
